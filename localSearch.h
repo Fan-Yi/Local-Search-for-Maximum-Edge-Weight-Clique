@@ -452,7 +452,7 @@ public:
 		memset(connect_clique_degree, 0, sizeof(int) * (v_num + 2));
 
 		score = new long double[v_num + 2];
-		memset(score, 0, sizeof(int) * (v_num + 2));
+		memset(score, 0, sizeof(long double) * (v_num + 2));
 
 		time_stamp = new HugeInt[v_num + 2];
 		for(int v = 1; v <= v_num; v++)
