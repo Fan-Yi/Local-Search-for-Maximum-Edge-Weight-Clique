@@ -21,7 +21,7 @@ using namespace std;
 #define age_init_i_mode
 //#define using_init_mode
 
-#define reset_mode
+//#define reset_mode
 	#define drop_clear_mode
 
 #define neg_score_greedy_mode
