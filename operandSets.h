@@ -81,7 +81,7 @@ public:
 		{
 			int e = array[i];
 			if(!confChange[e]) continue;
-			if(long_double_greater(score[e] + score[swap_partner[e]], score[best_e] + score[swap_partner[best_e]]) || (long_double_equals(score[e] + score[swap_partner[e]], score[best_e] + score[swap_partner[e]]) && time_stamp[e] < time_stamp[best_e]))
+			if(long_double_greater(score[e] + score[swap_partner[e]], score[best_e] + score[swap_partner[best_e]]) || (long_double_equals(score[e] + score[swap_partner[e]], score[best_e] + score[swap_partner[best_e]]) && time_stamp[e] < time_stamp[best_e]))
 				best_e = e;
 		}
 		return best_e;
